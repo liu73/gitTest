@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     .flag{
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      margin-top: 10px;
+    }
+    .one{
+      animation: runone 2s;
+      animation-fill-mode:forwards
+    }
+    @keyframes runone {
+      0%{
+        background-color: black;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+    .two{
+      animation: runtwo 2s;
+      animation-fill-mode: forwards;
+      animation-delay: 2s;
+    }
+    @keyframes runtwo {
+      0%{
+        background-color: black;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+
+    .three{
+      animation: runthree 2s;
+      animation-fill-mode: forwards;
+      animation-delay: 4s;
+    }
+    @keyframes runthree {
+      0%{
+        background-color: black;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+
+    .four{
+      animation: runfour 2s;
+      animation-fill-mode: forwards;
+      animation-delay: 6s;
+    }
+    @keyframes runfour {
+      0%{
+        background-color: black;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+
+    .five{
+      animation: runfive 2s;
+      animation-fill-mode: forwards;
+      animation-delay: 8s;
+    }
+    @keyframes runfive {
+      0%{
+        background-color: black;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contain">
+    <div class="flag one"></div>
+    <div class="flag two"></div>
+    <div class="flag three"></div>
+    <div class="flag four"></div>
+    <div class="flag five"></div>
+  </div>
+</body>
+</html>
